@@ -1,0 +1,9 @@
+package com.capgemini.selenium.sample;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "D:\\Users\\smaringa\\Downloads\\chromedriver_win32//chromedriver.exe");
+	}
+
+}

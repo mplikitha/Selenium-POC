@@ -1,0 +1,20 @@
+package com.capgemini.selenium.sample;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.server.handler.FindElements;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver",
+				"D:\\Users\\smaringa\\Downloads\\chromedriver_win32//chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://www.google.com/");
+		driver.manage().window().maximize();
+//		lst-ib-- id   gsfi-- classname
+		driver.findElement(By.id("lst-ib")).sendKeys("capgemini");
+
+	}
+}

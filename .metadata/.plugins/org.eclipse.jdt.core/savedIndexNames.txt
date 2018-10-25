@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+C:\Users\smaringa\Documents\workspace\.metadata\.plugins\org.eclipse.jdt.core
+3548572183.index
+780710258.index
